@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: fonts;
+    src: url(./Thankfully.ttf);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-size: 30px;
+    background-color: brown;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+
+}
+.heading h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    color: white;
+    font-family: fonts;
+}
+.card__container{
+    width: 400px;
+    height: 600px;
+    background-color: silver;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(70,68,68);
+
+}
+.card_header{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    height: 60px;
+
+}
+.card_title h2{
+    margin-left: 20px;
+    font-family: fonts;
+}
+.card_country h2{
+    margin-right: 20px;
+    font-family: fonts;
+}
+.Search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Search input{
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-left: 90px;
+    outline: none;
+    
+}
+
+.card_img img{
+    width: 200px;
+    height: 200px;
+    margin-left: 95px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+
+}
+.temp{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    margin-left: 38%;
+
+}
+.pow_head h5{
+    padding: 90px;
+    color:blue;
+    font-family: fonts;
+    text-align: center;
+    
+}
+@media (max-width:480px){
+    .heading{
+        background-color: orangered;
+    }
+    .heading h3{
+        font-size: 30px;
+        color: whitesmoke;
+    }
+    .card__container{
+        width: 250px;
+        height: 500px;
+    }
+    .card_img img{
+        margin-left:50px ;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .temp{
+        display: flex;
+        align-items: center;
+    }
+    .Search input{
+       padding-left: 5%;
+        
+    }
+   
+    .pow_head h5{
+        font-size: 15px;
+        padding: 80px;
+        color:blue;
+        font-family: fonts;
+        text-align: center;
+        
+    }
+   
+}
+
